@@ -8,6 +8,10 @@
     --rojo-: #e00909;
     --fuente-:'Poppins', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
 body {
     background: url(imgstarwars/star\ wars\ fondo2.jpeg);
     background-size: contain;
@@ -21,6 +25,7 @@ header {
     padding: 10px;
     background: black; 
     position: fixed;
+    box-shadow: 0 2px 25px #FFFFFF;
 }
 ul {
     list-style: none;
@@ -162,6 +167,7 @@ footer {
     width: 100%;
     position: fixed;
     bottom: 0;
+    box-shadow: 0 2px 25px #FFFFFF;
 }
 footer ul {
     display: flex;
